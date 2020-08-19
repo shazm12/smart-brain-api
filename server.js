@@ -107,4 +107,4 @@ app.post('/imageUrl', (req, res) => {
 
 })
 
-app.listen(3001, () => console.log('Example app listening on port 3001!'))
+app.listen(process.env.PORT || 3000, () => console.log('Example app listening on port 3001!'))
